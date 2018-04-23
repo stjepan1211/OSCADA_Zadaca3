@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Osc_ada_exercise3</string>
+    <string name="title">Curriculum vitae</string>
+    <string name="personaldata">Personal data</string>
+    <string name="namesurname">Stjepan Baričević</string>
+    <string name="email">stjepan.baricevic@gdi.net</string>
+    <string name="phone">000 000 0000</string>
+    <string name="workexperience">Work experience</string>
+    <string name="juniorswdeveloper">Junior software developer</string>
+    <string name="gdi">GDi d.o.o.</string>
+    <string name="fromto">From October 2017 to present</string>
+    <string name="education">Education</string>
+    <string name="faculty">Faculty of computer engineering in Osijek</string>
+    <string name="fromtofaculty">2012. - 2017.</string>
+    <string name="personalskills">Personal skills</string>
+    <string name="programminglanguages">Programming languages: C#, Java, SQL, T-SQL, Angular, Javascript, Dojo, C, C++</string>
+    <string name="other">MVC architecture and DB design</string>
+</resources>

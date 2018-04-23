@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="buttonwidth">0dp</dimen>
+    <dimen name="marginparent">10dp</dimen>
+    <dimen name="marginfromotherelement">10dp</dimen>
+    <dimen name="textsizenormal">20sp</dimen>
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Osc_ada_exercise4</string>
+    <string name="enterheight">Enter height in [m]:</string>
+    <string name="enterwidth">Enter weight in [kg]:</string>
+    <string name="undernourished">Thinness</string>
+    <string name="healthy">Normal</string>
+    <string name="fat">Overweight</string>
+    <string name="veryfat">Obese</string>
+    <string name="calculate">Calculate</string>
+</resources>

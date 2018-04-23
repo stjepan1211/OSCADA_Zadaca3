@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/marginmain"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            style="@style/TextViewMain"
+            android:text="@string/title" />
+        <ImageView
+            android:layout_width="@dimen/imagesize"
+            android:layout_height="@dimen/imagesize"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/hi"/>
+    </RelativeLayout>
+
+
+    <LinearLayout style="@style/VerticalLinearLayoutStyle">
+
+        <LinearLayout
+            style="@style/HorizontalLinearLayoutStyle"
+            android:layout_weight="1">
+
+            <TextView
+                style="@style/TextViewMain"
+                android:text="@string/personaldata" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/HorizontalLinearLayoutStyle"
+            android:layout_weight="2">
+
+            <TextView
+                style="@style/TextViewSub"
+                android:text="@string/namesurname" />
+
+            <TextView
+                style="@style/TextViewSub"
+                android:text="@string/email" />
+
+            <TextView
+                style="@style/TextViewSub"
+                android:text="@string/phone" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout style="@style/VerticalLinearLayoutStyle">
+
+        <LinearLayout
+            style="@style/HorizontalLinearLayoutStyle"
+            android:layout_weight="1">
+
+            <TextView
+                style="@style/TextViewMain"
+                android:text="@string/workexperience" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/HorizontalLinearLayoutStyle"
+            android:layout_weight="2">
+
+            <TextView
+                style="@style/TextViewSub"
+                android:text="@string/juniorswdeveloper" />
+
+            <TextView
+                style="@style/TextViewSub"
+                android:text="@string/gdi" />
+
+            <TextView
+                style="@style/TextViewSub"
+                android:text="@string/fromto" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout style="@style/VerticalLinearLayoutStyle">
+
+        <LinearLayout
+            style="@style/HorizontalLinearLayoutStyle"
+            android:layout_weight="1">
+
+            <TextView
+                style="@style/TextViewMain"
+                android:text="@string/education" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/HorizontalLinearLayoutStyle"
+            android:layout_weight="2">
+
+            <TextView
+                style="@style/TextViewSub"
+                android:text="@string/faculty" />
+
+            <TextView
+                style="@style/TextViewSub"
+                android:text="@string/fromtofaculty" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout style="@style/VerticalLinearLayoutStyle">
+
+        <LinearLayout
+            style="@style/HorizontalLinearLayoutStyle"
+            android:layout_weight="1">
+
+            <TextView
+                style="@style/TextViewMain"
+                android:text="@string/personalskills" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/HorizontalLinearLayoutStyle"
+            android:layout_weight="2">
+
+            <TextView
+                style="@style/TextViewSub"
+                android:text="@string/programminglanguages" />
+
+            <TextView
+                style="@style/TextViewSub"
+                android:text="@string/other" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
